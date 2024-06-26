@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>DEV Modas</h1>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Roupas</a>
+                    </li>
+                    <li>
+                        <a href="#">Orçamento</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="carousel-imagens">
+        <img src="./images/fashionable-boutique-owner-measures-dress-black-white-studio-generated-by-ai 1920_500.jpg" alt="roupa">
+        <img src="./images/pexels-kish-1488463 1920_500.jpg" alt="loja toda">
+        <img src="./images/promoção 1920_500.jpg" alt="varias roupas">
+    </div>
+    <section id="sobre-a-loja">
+        <div class="container container-flex">
+            <img src="./images/loja (2).jpg" alt="Imagem da DEV-loja">
+            <div>
+                <h2>Sobre a DEV Modas</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat architecto inventore similique, iure a dolor ut doloremque, eaque atque ducimus numquam quis! Nobis consequatur corrupti, quaerat a distinctio voluptas id.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat architecto inventore similique, iure a dolor ut doloremque, eaque atque ducimus numquam quis! Nobis consequatur corrupti, quaerat a distinctio voluptas id.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Roupas</h2>
+            <ul class="container-flex lista-roupas">
+                <li class="item-central">
+                    <img src="./images/fast-fashion-vs-slow-sustainable-fashion.jpg" alt="">
+                    <h3>Camisa mais calça</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum eum cum nobis neque praesentium pariatur itaque doloribus non dolor maxime.
+                    </p>
+                    <strong>R$ 700,00</strong>
+                    <button type="button">adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./images/shirt-mockup-concept-with-plain-clothing camisas.jpg" alt="">
+                    <h3>três camisas masculina</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum eum cum nobis neque praesentium pariatur itaque doloribus non dolor maxime.
+                    </p>
+                    <strong>R$ 300,00</strong>
+                    <button type="button">adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./images/fast-fashion-vs-slow-sustainable-fashion vestido.jpg" alt="">
+                    <h3>vestido mais sapato</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum eum cum nobis neque praesentium pariatur itaque doloribus non dolor maxime. 
+                    </p>
+                    <strong>R$ 900,00</strong>
+                    <button type="button">adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./images/shirt-mockup-concept-with-plain-clothing 4.jpg" alt="">
+                    <h3>três camisa mais tenis</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum eum cum nobis neque praesentium pariatur itaque doloribus non dolor maxime.
+                    </p>
+                    <strong>R$ 500,00</strong>
+                    <button type="button">adicionar ao carrinho</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2>Solicite seu Orçamento</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">mensagem</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
